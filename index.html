@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Soul</title>
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="topLogo"><img src="./gfx/top_logo1.png" alt="Cat" class="img fade"/><img src="./gfx/top_logo2.png" alt="Converse" class="img fade"/><img src="./gfx/top_logo3.png" alt="Marell" class="fade"/></div>
+            <a href="index.html" title="Soul - sklep internetowy" id="logo"><span>SOUL</span></a>
+            <div class="topBox">
+                <div class="leftBox">
+                    <form action="" method="post" id="loginForm">
+                        <label for="login">LOGIN</label><input type="text" id="login" name="login" class="input"/><br />
+                        <label for="pass">HASŁO</label><input type="text" id="pass" name="pass" class="input"/><br />
+                        <div class="link">+ <a href="#" title="Zamponiałem/am hasła - przypomnij">przypomnij hasło</a></div>
+                        <input type="submit" id="loginSub" class="subButton" name="loginSub" value=""/>
+                    </form>
+                    <a href="#" title="Zarejestruj się" id="registerLink"><span>Zarejestruj się</span></a>
+                </div>
+                <div class="rightBox">
+                    <div id="basketParm">
+                        <div class="sep">W KOSZYKU<br />ŁĄCZNA WARTOŚĆ</div>
+                        <div><b>2 szt.</b><br /><span class="cOrange"><b>123,00 zł</b></span></div>
+                    </div>
+                    <a href="#" title="Złóż zamówienie" id="orderButton"><span>Złóż zamówienie</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul id="menu1">
+                <li class="sep"><a href="#" title="Promocje">PROMOCJE</a></li>
+                <li class="sep"><a href="#" title="Nowości">NOWOŚCI</a></li>
+                <li class="active"><a href="#" title="Wyprzedaże">WYPRZEDAŻE</a></li>
+            </ul>
+            <ul id="menu2">
+                <li class="sep"><a href="#" title="Sklepy">SKLEPY</a></li>
+                <li class="sep"><a href="#" title="Rozmiarówka">ROZMIARÓWKA</a></li>
+                <li class="sep"><a href="#" title="Regulamin">REGULAMIN</a></li>
+                <li class="sep"><a href="#" title="Obsługa Klienta">OBSŁUGA KLIENTA</a></li>
+                <li><a href="#" title="Kontakt">KONTAKT</a></li>
+            </ul>
+        </div>
+      <div class="content">
+            <div class="cLeft">
+                <form action="" method="post" id="searchForm">
+                    <label for="searchText">SZUKAJ</label><input type="text" id="searchText" class="input" name="" value="Wpisz frazę..."/><input type="submit" value="" id="searchSub" name="searchSub"/>
+                    <div class="link">+<a href="#" title="Wyszukiwanie zaawansowane">wyszukiwanie zaawansowane</a></div>
+                </form>
+                <div class="box1">
+                    <div class="top"></div>
+                    <div class="inside">
+                        <h4>BUTY</h4>
+                        <ul>
+                            <li class="sep menu_start" id="list1"><a href="#" title="CONVERSE">CONVERSE</a>
+                                <ul id="list1_menu">
+                                    <li><a href="#" class="sepnb" title="Adidasy">Adidasy</a></li>
+                                    <li><a href="#" class="sepnb" title="Klapki">Klapki</a></li>
+                                    <li><a href="#" class="sepnb" title="Trapery">Trapery</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="sep menu_start" id="list2"><a href="#" title="CATEPILLAR">CATEPILLAR</a>
+                                <ul id="list2_menu">
+                                    <li><a href="#" class="sepnb" title="Adidasy">Adidasy</a></li>
+                                    <li><a href="#" class="sepnb" title="Klapki">Klapki</a></li>
+                                    <li><a href="#" class="sepnb" title="Trapery">Trapery</a></li>
+                                </ul>
+                            </li>
+                            <li class="sep menu_start"><a href="#" title="MERRELL">MERRELL</a></li>
+                        </ul>
+                        <h4>ODZIEŻ</h4>
+                        <ul>
+                            <li class="sep menu_start"><a href="#" title="CONVERSE">CONVERSE</a></li>
+                            <li class="sep"><a href="#" title="CATEPILLAR">CATEPILLAR</a></li>
+                            <li class="sep"><a href="#" title="MERRELL">MERRELL</a></li>
+                            <li class="sep"><a href="#" title="MERRELL">MERRELL</a></li>
+                        </ul>
+                        <h4>AKCESORIA</h4>
+                        <ul>
+                            <li class="sep"><a href="#" title="CONVERSE">CONVERSE</a></li>
+                            <li class="sep"><a href="#" title="CATEPILLAR">CATEPILLAR</a></li>
+                            <li><a href="#" title="MERRELL">MERRELL</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Newsletter">
+                    <b>Dowiedz się więcej pierwszy o<br />nowościach w sklepie!</b><br />
+                    Zapisz się do naszego newslettera!
+                    <form action="" method="post" id="newsletterForm">
+                        <input type="text" id="emailAdress" name="email" class="input" value="Twój e-mail"/><input type="submit" value="" id="emailSub" name="emailSub" class="subButton"/>
+                    </form>
+                    <div class="link">+<a href="#" >Usuń e-mail z listy</a></div>
+                </div>
+                <a href="#" id="addRss"><span>dodaj do RSS</span></a>
+                <div class="box2">
+                    <div class="top"></div>
+                    <div class="inside">
+                        <div class="sepLine"><select name="prod"><option>Wybierz producenta</option></select></div>
+                        <img src="./gfx/producers/p_logo1.png" alt="Firma1" class="imgSep fade"/>
+                        <img src="./gfx/producers/p_logo2.png" alt="Firma2" class="imgSep fade"/>
+                        <img src="./gfx/producers/p_logo3.png" alt="Firma3" class="imgSep fade"/>
+                        <img src="./gfx/producers/p_logo4.png" alt="Firma4" class="fade"/>
+                    </div>
+                </div>
+                <div class="box3">
+                    <img src="./gfx/co_logo1.png" alt="Firma1a"/>
+                </div>
+            </div>  
+            <div class="cRight">
+            <div class="product">
+                <div class="prodView">
+                    <div class="top navigate"><a href="#" title="">BUTY</a><b>CONVERSE</b></div>
+                    <div class="inside">
+                        <div id="nameProd">OBUWIE CONVERSE PROLTHR VR OX 124DD5<img src="./gfx/promotion.png" alt="Cena promocyjna" /></div>
+                        <div class="navigateBar"><a href="#" title="Poprzedni" class="prev"><span>poprzedni</span></a><a href="#" title="Następny" class="next"><span>następny</span></a></div>
+                        <div class="price"><span class="oldPrice">255,00zł</span><br /><span class="newPrice">234<sup>00</sup><span>zł</span></span></div>
+                        <div class="center">
+                            <img src="./gfx/prodview_img.png" alt="Produkt 1" id="prodImg"/>
+                            <img src="./gfx/prodview_images.png" alt="" />
+                        </div>
+                        <a href="#" title="Tabela rozmiarów" id="sizeTableLink"><span>Zobacz tabele rozmiarów</span></a>
+                    </div>
+                </div>
+                <div class="prodInfo">
+                    <p>Porducent: <b>Converse</b><br />
+                    Kod produktu: <b>EC1108256</b></p>
+                    <div class="prodParam">
+                        <div class="top"></div>
+                        <div class="inside">
+                            <form action="" method="post">
+                                <label for="color">Wybierz kolor</label><select name="color" id="color"><option value="col1">zielony</option></select>
+                                <label for="size">Wybierz rozmiar</label><select name="size" id="size"><option value="size1">41 (26,6 cm)</option></select>
+                        </form>
+                        </div>
+                    </div>
+                    <div class="available">
+                        <b>Produkt dostępny</b><br />
+                        Wysyłka w ciągu 7 dni
+                    </div>
+                    <div class="costTransport">
+                        <b>Koszt dostawy</b>
+                        <div class="link"><b>17,00zł</b><br />+<a href="#" title="Dowiedz się więcej o kosztach dostawy">więcej o kosztach dostawy</a></div>
+                    </div>
+                    <div class="contact">
+                        <b>0 800 74 23 12</b><br />
+                        (pn-pt od 8 do 18)
+                    </div>
+                    <a href="#" class="addtoBasket"><span>Do koszyka</span></a>
+                    <div class="link mleft">+<a href="#">do ulubionych</a></div>
+                    <div class="otherInfo">
+                        <div class="top">Informacje</div>
+                        <div class="inside">
+                            <ul>
+                                <li><a href="#" title="Możliwość zwrotu">Możliwość zwrotu</a></li>
+                                <li><a href="#" title="Program rabatowy">Program rabatowy</a></li>
+                                <li><a href="#" title="Opinie klientów">Opinie klientów</a></li>
+                                <li><a href="#" title="Bezpieczne zakupy">Bezpieczne zakupy</a></li>
+                                <li><a href="#" title="Forma przesyłki">Forma przesyłki</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="productDesc">
+                    <ul><li class="active"><a href="#" title="Opis produktu" class="prodDesc1">Opis produktu</a></li><li><a href="#" title="Zapytaj o produkt" class="prodDesc2">Zapytaj o produkt</a></li><li><a href="#" title="Opinie o produkcie" class="prodDesc3">Opinie o produkcie</a></li><li><a href="#" title="Poleć znajomemu"  class="prodDesc3">Poleć znajomemu</a></li></ul>
+                    <div class="desc">
+                        <div class="top"></div>
+                        <div class="inside">
+                            <div class="prodDesc1">
+                                <p><b>Cholewka</b>: buty Converse wykonane z wysokogatunkowej skóry naturalnej. Cholewka w modnej kolorystyce i o ciekawej linni. Solidne obszycia i wykończenie gwarantuje wytrzymałość a zarazem wygodę. Wzmocniona przy pięcie i na nosku dla lepszej ochrony.</p>
+                                <p><b>Wnętrze</b>: buty sportowe osiadają wyprofilowaną wkładkę, która doskonale dopasowuje się do stopy zapewniając komfort i wygodę.</p>
+                                <p><b>Podeszwa</b>: obuwie firmy Converse z delikatnym bieżnikiem zapwnia bardzo dobrą stabilność. Wyonana z bardzo trwardej i odpornej na ścieranie gumy.</p>
+                                <p><b>Przeznaczenie</b>: Modne obuwie sportowe będące uzupełnieniem codzienego stroju. Rewelacyjnie nadaje się do dynamicznego stylu życia (szkołaa, praca, zakupy). Dzięki swoim właściwością doskonale nadają soę jako obuwie codziennego użytku. </p>
+                            </div>
+                            <div class="prodDesc2">
+                                <p><b>Cholewka</b>: buty Converse wykonane z wysokogatunkowej skóry naturalnej. Cholewka w modnej kolorystyce i o ciekawej linni. Solidne obszycia i wykończenie gwarantuje wytrzymałość a zarazem wygodę. Wzmocniona przy pięcie i na nosku dla lepszej ochrony.</p>
+                            </div>
+                            <div class="prodDesc3">
+                                <p><b>Cholewka</b>: buty Converse wykonane z wysokogatunkowej skóry naturalnej. Cholewka w modnej kolorystyce i o ciekawej linni. Solidne obszycia i wykończenie gwarantuje wytrzymałość a zarazem wygodę. Wzmocniona przy pięcie i na nosku dla lepszej ochrony.</p>
+                            </div>
+                            <div class="prodDesc4">
+                                <p><b>Cholewka</b>: buty Converse wykonane z wysokogatunkowej skóry naturalnej. Cholewka w modnej kolorystyce i o ciekawej linni. Solidne obszycia i wykończenie gwarantuje wytrzymałość a zarazem wygodę. Wzmocniona przy pięcie i na nosku dla lepszej ochrony.</p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="recommend">
+                    <h2>Polecamy</h2>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                    <div class="prodList">
+                        <img src="./gfx/r_img1.png" alt="Converse"/>
+                        <div class="h3">Converse 1T808</div>
+                        <span class="oldPrice">234,00 zł</span>
+                        <span class="newPrice">234<sup>00</sup><span>zł</span></span>
+                        <a href="#" title="Kup teraz" class="buynow_button"><span>Kup teraz</span></a>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="footer">
+                <div class="fMenu">
+                    <div class="boxMenu">
+                        <h3>INFORMACJE</h3>
+                        <ul>
+                            <li><a href="#" title="Sprzedaż hurtowa">Sprzedaż hurtowa</a></li>
+                            <li><a href="#" title="Program lojalnościowy">Program lojalnościowy</a></li>
+                            <li><a href="#" title="Karta stałego klienta">Karta stałego klienta</a></li>
+                            <li><a href="#" title="Spzedaż międzynarodowa">Spzedaż międzynarodowa</a></li>
+                            <li><a href="#" title="Uwagi, Reklamacje">Uwagi, Reklamacje</a></li>
+                        </ul>
+                   </div>
+                   <div class="boxMenu">
+                        <h3>POMOC</h3>
+                        <ul>
+                            <li><a href="#" title="Regulamin">Regulamin</a></li>
+                            <li><a href="#" title="Najczęsciej zadawane pytania">Najczęsciej zadawane pytania</a></li>
+                            <li><a href="#" title="Poradniki">Poradniki</a></li>
+                            <li><a href="#" title="Bezpieczeństwo">Bezpieczeństwo</a></li>
+                            <li><a href="#" title="Kontakty">Kontakty</a></li>
+                        </ul>
+                   </div>
+                   <div class="boxMenu">
+                        <h3>MOJE KONTO</h3>
+                        <ul>
+                            <li><a href="#" title="Zarejestruj się">Zarejestruj się</a></li>
+                            <li><a href="#" title="Moje zamówienia">Moje zamówienia</a></li>
+                            <li><a href="#" title="Ulubione">Ulubione</a></li>
+                            <li><a href="#" title="Historia transakcji">Historia transakcji</a></li>
+                            <li><a href="#" title="Ustawienia konta">Ustawienia konta</a></li>
+                            <li><a href="#" title="Sprawdź stan przesyłki">Sprawdź stan przesyłki</a></li>
+                        </ul>
+                   </div>
+                   <div class="boxMenu">
+                        <h3>O FIRMIE</h3>
+                        <ul>
+                            <li><a href="#" title="Plany i założenia">Plany i założenia</a></li>
+                            <li><a href="#" title="Kampania reklamowa">Kampania reklamowa</a></li>
+                            <li><a href="#" title="Wyróżnienia i nagrody">Wyróżnienia i nagrody</a></li>
+                            <li><a href="#" title="Komunikaty">Komunikaty</a></li>
+                            <li><a href="#" title="Kontakt">Kontakt</a></li>
+                        </ul>
+                   </div>
+                </div>
+                <div class="fLoga">
+                    <img src="./gfx/f_logo1.png" alt="Logo1" class="fade"/>
+                    <img src="./gfx/f_logo2.png" alt="Logo2" class="fade"/>
+                    <img src="./gfx/f_logo3.png" alt="Logo3" class="fade"/>
+                    <img src="./gfx/f_logo4.png" alt="Logo4" class="fade"/>
+                    <img src="./gfx/f_logo5.png" alt="Logo5" class="fade"/>
+                    <img src="./gfx/f_logo6.png" alt="Logo6" class="fade"/>
+                    <img src="./gfx/f_logo7.png" alt="Logo7" class="fade"/>
+                    <img src="./gfx/f_logo8.png" alt="Logo8" class="fade"/>
+                    <img src="./gfx/f_logo9.png" alt="Logo9" class="fade"/>
+                    <img src="./gfx/f_logo10.png" alt="Logo10" class="fade"/>
+                    <img src="./gfx/f_logo11.png" alt="Logo11" class="fade"/>
+                    <a href="http://www.iai-sa.com" title="IAI"><img src="./gfx/iai_logo.png" alt="IAI" id="logoIAI" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
